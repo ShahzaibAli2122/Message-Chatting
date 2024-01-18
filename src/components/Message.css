@@ -1,0 +1,164 @@
+.messageCon {
+    background-color: #E9F1F6;
+    height: 100vh;
+    width: 100%;
+    overflow-y: auto; 
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+h5 {
+    margin: 0;
+}h6 {
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+.protxt {
+    color: #000000;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.meassageProfile{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.messageHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.meassageCotant img{
+    padding: 10px;
+}
+.modal{
+    background-color: #fff;
+    width: 256px !important;
+    height: 70px;
+    float: right;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 16px;
+    gap: 20px;
+}
+.MarkBtn{
+    border: none;
+    color: #1A1D1F;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    width: 100%;
+}
+.deleteBtn{
+    color: #6F767E;
+    border: none;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    width: 100%;
+}
+.flex{
+    display: flex;
+}
+.firstMessage{
+    width: 22%;
+    padding: 14px;
+  background-color: #00AFEF;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 7.75rem;
+}
+
+.messageChatting{
+    margin-left: 50px;
+    /* overflow-y: scroll;
+    height: 100vh; */
+}
+.ScoMessage{
+    width: 40%;
+    padding: 14px;
+    background-color: #00AFEF;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 1rem;
+
+}
+.coMessage-messageChatting{
+    position: relative;
+}
+.imgtxt {
+    margin-bottom: 30px; 
+}
+
+
+.loremBtn{
+    background-color: #fff;
+    width: 27%;
+    padding: 14px;
+    border-radius: 8px
+}
+
+.messageOtxt{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-content: center;
+    margin: 0px 16px;
+    gap: 10px;
+    margin-top: 16px;
+}
+.TextMain{
+    margin: 30px 0;
+    width: 95%;
+    align-items: center;
+    margin-left: 30px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.textInput{
+    outline: none;
+    border: none;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    border-radius: 10px;
+}
+
+.addImg{
+    position: relative;
+    top: 24px;
+    padding-left: 10px;
+}
+.SENDIMG{
+    margin-right: 10px;
+}
